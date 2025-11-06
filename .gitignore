@@ -1,0 +1,32 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Dataset (too large for GitHub)
+Split_smol/
+
+# Model files (too large for GitHub)
+*.h5
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploaded images
+static/images/*.jpg
+static/images/*.jpeg
+static/images/*.png
+static/images/*.jfif
+!static/images/home.jpg
+!static/images/b4.jpg
