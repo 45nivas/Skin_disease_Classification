@@ -3,9 +3,9 @@ import uuid
 import flask
 import urllib
 from PIL import Image
-import tf_keras as keras
-from tf_keras.models import load_model
-from tf_keras.utils import load_img, img_to_array
+from tensorflow import keras
+from tensorflow.keras.models import load_model
+from tensorflow.keras.utils import load_img, img_to_array
 from flask import Flask , render_template  , request , send_file
 
 
